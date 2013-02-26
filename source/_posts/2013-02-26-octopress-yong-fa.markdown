@@ -20,22 +20,20 @@ categories: Octopress
 	comments: true
 	categories: Octopress 
 	---
-头两个*"---"*是文章属性，意义很直接。
+头两个"---"是文章属性，意义很直接。
 *categories*是文章分类，记得*:*后面要加个*空格*，如果想设置多个分类可以如下：
 	categoriest: [公务猿, 苦逼]
 或
 	categoriest:
 	- 公务猿
 	- 苦逼
-默认内容中第二个*"---"*下面就是文章内容区域，需要使用*markdown*语法书写，这个需要自己去细查。
+默认内容中第二个"---"下面就是文章内容区域，需要使用*markdown*语法书写，这个需要自己去细查。
 	记住文章内容最后还需要加一个*"---"*
 #### 生成静态内容
 	rake generate
 
 #### 发表文章
 	rake deploy
-
-完！
 ---
-##### 引用
+#### 引用
 *	[Octopress Usages](http://cofthew7.github.com/blog/2012/06/23/octopress-usages/)
