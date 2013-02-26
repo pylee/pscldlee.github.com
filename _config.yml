@@ -5,7 +5,7 @@
 url: http://pscldlee.github.com
 title: Find @pscldlee
 subtitle: an iOS Developer, recording my life.
-author: Pscl
+author: PY.Lee
 simple_search: http://google.com/search
 description:
 
@@ -70,13 +70,6 @@ twitter_show_replies: false
 twitter_follow_button: true
 twitter_show_follower_count: false
 twitter_tweet_button: true
-# Weibo
-weibo_uid:1651556031
-weibo_verifier:a250b04e
-weibo_fansline:0
-weibo_show:false
-weibo_pic:false
-weibo_skin:10
 
 # Google +1
 google_plus_one: false
