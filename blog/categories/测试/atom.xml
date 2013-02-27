@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 测试 | Find @pscldlee]]></title>
+  <link href="http://pylee.github.com/blog/categories/测试/atom.xml" rel="self"/>
+  <link href="http://pylee.github.com/"/>
+  <updated>2013-02-27T14:14:38+08:00</updated>
+  <id>http://pylee.github.com/</id>
+  <author>
+    <name><![CDATA[PY.Lee]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello Octopress]]></title>
+    <link href="http://pylee.github.com/blog/2013/02/26/hello-octopress/"/>
+    <updated>2013-02-26T13:33:00+08:00</updated>
+    <id>http://pylee.github.com/blog/2013/02/26/hello-octopress</id>
+    <content type="html"><![CDATA[<h2>第一篇blog来自vim</h2>
+]]></content>
+  </entry>
+  
+</feed>

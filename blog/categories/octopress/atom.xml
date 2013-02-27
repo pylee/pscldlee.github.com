@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | Find @pscldlee]]></title>
+  <link href="http://pylee.github.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://pylee.github.com/"/>
+  <updated>2013-02-27T14:14:38+08:00</updated>
+  <id>http://pylee.github.com/</id>
+  <author>
+    <name><![CDATA[PY.Lee]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress 用法]]></title>
+    <link href="http://pylee.github.com/blog/2013/02/26/octopress-yong-fa/"/>
+    <updated>2013-02-26T14:59:00+08:00</updated>
+    <id>http://pylee.github.com/blog/2013/02/26/octopress-yong-fa</id>
+    <content type="html"><![CDATA[<p>第一次使用Octopress，如此简洁的感觉看起来很爽，下面是发文章的基本用法</p>
+
+<h4>新文章</h4>
+
+<pre><code>rake new_post["title"]
+</code></pre>
+
+<h4>编辑文章内容</h4>
+
+<p>用vim即可或者其他编辑器，暂时还不会。
+默认内容：</p>
+
+<pre><code>---
+layout: post
+title: "Octopress 用法"
+date: 2013-02-26 14:59
+comments: true
+categories: Octopress 
+---
+</code></pre>
+
+<p>头两个"---"是文章属性，意义很直接。
+<em>categories</em>是文章分类，记得<em>:</em>后面要加个<em>空格</em>，如果想设置多个分类可以如下：</p>
+
+<pre><code>categoriest: [公务猿, 苦逼]
+</code></pre>
+
+<p>或</p>
+
+<pre><code>categoriest:
+- 公务猿
+- 苦逼
+</code></pre>
+
+<p>默认内容中第二个"---"下面就是文章内容区域，需要使用<em>markdown</em>语法书写，这个需要自己去细查。
+记住文章内容最后还需要加一个</p>
+
+<pre><code>---
+</code></pre>
+
+<h4>生成静态内容</h4>
+
+<pre><code>rake generate
+</code></pre>
+
+<h4>发表文章</h4>
+
+<pre><code>rake deploy
+</code></pre>
+
+<hr />
+
+<h4>引用</h4>
+
+<ul>
+<li><a href="http://cofthew7.github.com/blog/2012/06/23/octopress-usages/">Octopress Usages</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
