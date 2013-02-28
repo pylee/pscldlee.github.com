@@ -6,4 +6,6 @@ comments: true
 categories: 测试 
 ---
 第一篇blog来自vim
+
+{% img http://pyleealbum.appspot.com/Blog/9290062.png %}
 ---
