@@ -3,7 +3,7 @@ layout: post
 title: "Moodle Quiz(测验) iOS端研究"
 date: 2013-02-27 10:11
 comments: true
-categories: [iOS, Moodle] 
+categories: Moodle 
 ---
 最近在考虑实现*Moodle*的*iOS*客户端，想实现上面的*Quiz*系统，搜了下发现有两款开源的，一款*Native*端，一款*HTML5*端。
 
