@@ -4,7 +4,7 @@
   <title><![CDATA[Meet PY.Lee]]></title>
   <link href="http://pylee.github.com/atom.xml" rel="self"/>
   <link href="http://pylee.github.com/"/>
-  <updated>2013-03-05T10:33:25+08:00</updated>
+  <updated>2013-03-11T15:11:01+08:00</updated>
   <id>http://pylee.github.com/</id>
   <author>
     <name><![CDATA[PY.Lee]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Quiz数据库设计]]></title>
+    <link href="http://pylee.github.com/blog/2013/03/11/quizshu-ju-ku-she-ji/"/>
+    <updated>2013-03-11T15:07:00+08:00</updated>
+    <id>http://pylee.github.com/blog/2013/03/11/quizshu-ju-ku-she-ji</id>
+    <content type="html"><![CDATA[<h3>Quiz数据库设计图</h3>
+
+<p><img src="http://docs.moodle.org/dev/images_dev/b/b5/Quiz_database.png"></p>
+
+<hr />
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Moodle Quiz(测验) iOS端研究]]></title>
@@ -111,7 +124,7 @@ categories: Octopress
     <id>http://pylee.github.com/blog/2013/02/26/hello-octopress</id>
     <content type="html"><![CDATA[<p>第一篇blog来自vim</p>
 
-<h2><img src="http://pyleealbum.appspot.com/Blog/9290062.png"></h2>
+<hr />
 ]]></content>
   </entry>
   
