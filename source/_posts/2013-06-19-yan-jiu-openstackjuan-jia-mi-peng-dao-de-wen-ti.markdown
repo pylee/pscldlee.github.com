@@ -19,20 +19,26 @@ categories: OpenStack
 环境OK了，接下来研究卷加密。google了下LVM加密相关的内容，发现了Linux下面用[***cryptsetup***](https://code.google.com/p/cryptsetup/)就能够实现卷加密的功能，这个可以通过apt-get来获取，只有几百KB。它把LVM加密过后必须要输入正确的密码才能mount使用，否者就无法挂载，自然也就不能查看里面的内容。操作的对象为LVM，所以需要事先创建好LVM，[***如何创建LVM看这里***](http://space.itpub.net/82392/viewspace-166638)。
 
 cryptsetup LUKS加密步骤如下(假设LVM名为:lvm1, VG名为:vgtest):
-	cryptsetup luksFormat /dev/vgtest/lvm1
-	#回车后，会要求输入大写的YES，然后就输入密码
+```bash
+cryptsetup luksFormat /dev/vgtest/lvm1
+#回车后，会要求输入大写的YES，然后就输入密码
+```
 解密，并使用：
-	cryptsetup luksOpen /dev/vgtest/lvm1 encryptLVM
-	#回车后，要求输入刚才加密时设置的密码，正确则会创建一个Device-Mapper文件，/dev/mapper/encryptLVM，错误则无法生成，也就无法挂载使用。
+```bash
+cryptsetup luksOpen /dev/vgtest/lvm1 encryptLVM
+#回车后，要求输入刚才加密时设置的密码，正确则会创建一个Device-Mapper文件，/dev/mapper/encryptLVM，错误则无法生成，也就无法挂载使用。
 	
-	#格式化系统，并挂载使用
-	mkfs.ext3 /dev/mapper/encryptLVM
-	mkdir /mnt/crypt
-	mount /dev/mapper/encryptLVM /mnt/crypt
+#格式化系统，并挂载使用
+mkfs.ext3 /dev/mapper/encryptLVM
+mkdir /mnt/crypt
+mount /dev/mapper/encryptLVM /mnt/crypt
+```
 
 卸载设备:
-	umount /mnt/crypt
-	cryptsetup luksClose /dev/mapper/encryptLVM
+```bash
+umount /mnt/crypt
+cryptsetup luksClose /dev/mapper/encryptLVM
+```
 
 如果要再使用的话，只需要再luksOpen，然后mount就可以了，不需要再luksFormat了。
 
