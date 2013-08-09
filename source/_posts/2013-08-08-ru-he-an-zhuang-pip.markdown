@@ -12,7 +12,7 @@ pip是一个专门用来安装Python包的管理的工具，比如用来安装dj
 wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py
 python ez_setup.py --user
 
-在安装pip
+再安装pip
 curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py
 [sudo] python get-pip.py
 ```
