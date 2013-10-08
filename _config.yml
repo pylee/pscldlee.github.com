@@ -2,13 +2,13 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://pylee.github.com
+url: http://pylee.github.io
 title: Meet PY.Lee
 subtitle: an iOS Developer, recording my ideas.
 author: PY.Lee
 simple_search: http://google.com/search
 description:
-keywords: iOS, octopress, c/c++, Dota, game, linux, raspberry-pi
+keywords: iOS, octopress, c/c++, Dota, game, linux, raspberry-pi, python, nodejs, openstack
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
