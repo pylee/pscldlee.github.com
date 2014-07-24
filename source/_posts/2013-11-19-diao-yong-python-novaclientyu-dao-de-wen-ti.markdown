@@ -11,5 +11,4 @@ categories: OpenStack
 > 这个原因是获取不到instance的fixed_ip的信息，也就是instance还没初始化好，我实在给instance添加floating_ip的时候遇到的这个问题。
 > [参考引用](http://www.gossamer-threads.com/lists/openstack/dev/23837)
 
-*未完待续*
 ---
